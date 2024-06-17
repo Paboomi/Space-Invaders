@@ -24,9 +24,9 @@ public class Enemigo extends JComponent {
     private Image imagenExplosion;
     private boolean enExplosion;
     private long tiempoExplosion;
-    private String PATH_ENEMIGO1 = "spaceinvader/Images";
-    private String PATH_ENEMIGO2 = "spaceinvader/Images";
-    private String PATH_ENEMIGO3 = "spaceinvader/Images";
+    private String PATH_ENEMIGO1 = "spaceinvaders/Images";
+    private String PATH_ENEMIGO2 = "spaceinvaders/Images";
+    private String PATH_ENEMIGO3 = "spaceinvaders/Images";
 
     public Enemigo(int x, int y, TipoEnemigo tipo) {
         this.x = x;

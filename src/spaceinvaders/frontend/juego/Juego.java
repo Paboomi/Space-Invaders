@@ -37,6 +37,7 @@ public class Juego extends JPanel {
         setSize(1178, 587);
         setPreferredSize(new Dimension(1178, 587));
         setDoubleBuffered(true);
+        setVisible(true);
 
         generarEnemigos();
 
@@ -56,7 +57,7 @@ public class Juego extends JPanel {
     }
     
     public void actualizarJuego() {
-        jugador.move();
+//        jugador.move();
         jugador.updateBullets();
 
         for (Enemigo enemigo : enemies) {
