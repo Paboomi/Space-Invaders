@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
  * @author saien
  */
 public class Principal extends javax.swing.JFrame {
-    private String PATH_BACKGROUND_GIF = "src/spaceinvaders/Images";
+    private String PATH_BACKGROUND_GIF = "spaceinvaders/Images";
     private ImageIcon img = new ImageIcon(PATH_BACKGROUND_GIF);
     public Principal() {
         initComponents();

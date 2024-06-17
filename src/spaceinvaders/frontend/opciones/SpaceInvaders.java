@@ -1,26 +1,25 @@
 package spaceinvaders.frontend.opciones;
 
+import java.awt.BorderLayout;
 import javax.swing.*;
 import spaceinvaders.backend.Contador;
 import spaceinvaders.backend.GameLoop;
 import spaceinvaders.frontend.juego.Juego;
 
-/**
- *
- * @author saien
- */
 public class SpaceInvaders extends javax.swing.JFrame {
 
     private Contador contador;
+
     public SpaceInvaders() {
         Juego juego = new Juego();
         initComponents();
-        contador = new Contador(90, 
-                e -> lblTimer.setText(Integer.toString(contador.getCount())), 
+        pnlJuego.setLayout(new BorderLayout());
+        pnlJuego.add(juego, BorderLayout.CENTER);
+        contador = new Contador(90,
+                e -> lblTimer.setText(Integer.toString(contador.getCount())),
                 () -> JOptionPane.showMessageDialog(this, "Termino el tiempo")
         );
         contador.start();
-        add(juego);
         setVisible(true);
         new GameLoop(juego).start();
     }

@@ -3,8 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/frontend/opciones/SpaceInvaders.java</file>
             <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/Main.java</file>
+            <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/backend/enemigos/Enemigo.java</file>
+            <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/backend/GameLoop.java</file>
             <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/frontend/Principal.java</file>
+            <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/backend/Jugador.java</file>
+            <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/backend/Bullet.java</file>
+            <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/frontend/juego/Juego.java</file>
+            <file>file:/mnt/datos/JAVA/IPC1%202024%20VAQUERAS/Laboratorio/PRACTICA%202/SpaceInvaders/src/spaceinvaders/backend/enemigos/TipoEnemigo.java</file>
         </group>
     </open-files>
 </project-private>
