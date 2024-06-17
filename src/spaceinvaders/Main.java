@@ -1,6 +1,7 @@
 package spaceinvaders;
 
 import spaceinvaders.frontend.Principal;
+import spaceinvaders.frontend.opciones.SpaceInvaders;
 
 /**
  *
@@ -9,6 +10,7 @@ import spaceinvaders.frontend.Principal;
 public class Main {
     public static void main(String[] args) {
         
-    new Principal();
+//    new Principal();
+new SpaceInvaders();
     }
 }

@@ -59,6 +59,7 @@ public class Principal extends javax.swing.JFrame {
         btn_Continuar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/spaceinvaders/Images/btn_Continuar.png"))); // NOI18N
         btn_Continuar.setBorder(null);
         btn_Continuar.setBorderPainted(false);
+        btn_Continuar.setContentAreaFilled(false);
         btn_Continuar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_PuntajeMaximo.setBackground(new java.awt.Color(0, 0, 0));
@@ -73,6 +74,7 @@ public class Principal extends javax.swing.JFrame {
         btn_Salir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/spaceinvaders/Images/btn_Salir.png"))); // NOI18N
         btn_Salir.setBorder(null);
         btn_Salir.setBorderPainted(false);
+        btn_Salir.setContentAreaFilled(false);
         btn_Salir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         lblTitulo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/spaceinvaders/Images/titulo.png"))); // NOI18N
